@@ -5,6 +5,21 @@ body {
 
 h1 {
     font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.ex {
+    border: 1px solid black;
+    display: inline;
+    margin-left: 20px;
+    font-style: italic;
+    border-radius: 30%;
+    color: rgb(37, 8, 8);
+    padding: 10px 20px;
+    box-shadow: 5px 5px 20px red;
 
 }
 
@@ -12,7 +27,7 @@ h1 {
     color: darkorange;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 150px;
 }
@@ -25,6 +40,7 @@ section {
 .half-width img {
     width: 80%;
     margin-top: 40px;
+    margin-left: 70px;
 }
 
 .link-button {
@@ -54,7 +70,6 @@ p {
 
 h2 {
     font-size: 40px;
-
 }
 
 h3 {
@@ -78,4 +93,37 @@ a {
 .half-width-d img {
     width: 90%;
     margin-left: 20px;
+}
+
+.experience-item {
+    box-shadow: 1px 10px 40px red;
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding-left: 70px;
+}
+
+.experience-section {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bottom {
+    text-align: center;
+    color: rgb(37, 5, 5);
+    margin-bottom: 30px;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+
+#baby-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple tomato);
+    border-image-slice: 1;
 }
