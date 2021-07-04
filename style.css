@@ -118,12 +118,12 @@ a {
 
 #full-stack-experience {
     border-left: 7px solid;
-    border-image: linear-gradient(blue cyan);
+    border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 
 #baby-dev-experience {
     border-left: 7px solid;
-    border-image: linear-gradient(purple tomato);
+    border-image: linear-gradient(purple, tomato);
     border-image-slice: 1;
 }
